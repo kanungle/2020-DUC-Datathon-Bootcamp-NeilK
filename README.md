@@ -1,4 +1,4 @@
-# Datathon Bootcamp with TIBCO Spotfire
+# DUC Datathon Bootcamp with TIBCO Spotfire
 
 Welcome to the DUC Datathon 2020 Intermediate Level Bootcamp for TIBCO Spotfire :bar_chart:! Follow along with this guide to learn about geoanalytics, data functions, property controls.
 
@@ -17,6 +17,14 @@ You can find the files for each exercise in the "exercises" folder directory.
 
 
 ### Exercise 1: Geospatial Analysis
+
+![Image of Points](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex1%20-%20Isopach%20Points.png)
+
+![Image of Voronoi](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Voronoi.png)
+
+![Image of Contours](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex1%20-%20Contours.png)
+
+:arrow_right: Example DXP: [Download](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201/Exercise%201%20-%20Geospatial%20Analysis.dxp)
 
 TERR Expression Code for Spatial Interpolation:
 ```
@@ -57,28 +65,29 @@ Also see:
 - [Spotfire Geoanalytics Home Page](https://community.tibco.com/wiki/tibco-spotfire-location-analytics-mapping-geoanalytics-and-spatial-statistics)
 
 Shapefiles:
-- Download [Alberta Natural Regions and Subregions Shapefile](https://www.albertaparks.ca/media/429607/natural_regions_subregions_of_alberta.zip) (Alberta Parks -- www.albertaparks.ca)
-- Download [Alberta Play Outline Shapefile](https://www.aer.ca/documents/catalog/PlayWorkbookListArea.zip) (Alberta Energy Regulator -- www.aer.ca)
+- Download [Alberta Natural Regions and Subregions Shapefile](https://www.albertaparks.ca/media/429607/natural_regions_subregions_of_alberta.zip) (source: Alberta Parks)
+- Download [Alberta Play Outline Shapefile](https://www.aer.ca/documents/catalog/PlayWorkbookListArea.zip) (source: Alberta Energy Regulator)
 
 
-### Exercise 2: Machine Learning
+### Exercise 2: Regression Analysis
 
-Example DXP: [Download]()
+:arrow_right: Example DXP: [Download]()
 
-- This DXP file may be used to demonstrate how to create a regression model in Spotfire without writing any code.
-  - To demonstrate this, go to Tools > Regression Modeling, and select:
+- This DXP file may be used to create a regression model in Spotfire without writing any code.
+  1. Download and open the DXP provided above
+  2. Go to Tools > Regression Modeling, and select:
     - Response column: Production at 12 Months (BOE)
 	- Predictor columns: all the other columns except Latitude and Longitude
-  - Then click OK and review the output.
-  - Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE)
+  3. Then click OK and review the output.
+  4. Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE)
 
 ### Exercise 3: Styling Tips
 
-Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of visualization.
+Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of visualization. If you are participating in the Data Visualization Competition, this topic is very important!!
 
-This topic is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session.
+The topic itself is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session.
 
-Example DXP: [Download]()
+:arrow_right: Example DXP: [Download]()
 
 Video Tips:
  - [Styling and Configuration Overview (11:22)](https://youtu.be/1pfGb-cHrgc)
@@ -89,6 +98,12 @@ Cheatsheets:
  - [Choosing the Right Chart](http://community.tibco.com/sites/default/files/choosing_the_right_chart.pdf)
  - [Color Scheme Guidance](https://community.tibco.com/sites/default/files/color_scheme_guidance_1.pdf)
  - [More cheatsheets](https://community.tibco.com/wiki/spotfire-cheatsheets)
+ 
+ Color Resources:
+  - [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+  - [DataViz Color Palette Generator](https://learnui.design/tools/data-color-picker.html)
+  - [ESRI Color Ramps](https://developers.arcgis.com/javascript/latest/guide/esri-color-ramps/)
+  - [ColorBrewer2](https://colorbrewer2.org/)
 
 ### Connect with others!
 
@@ -101,6 +116,6 @@ __User Groups:__
 - [LinkedIn](https://www.linkedin.com/groups/12253057/)
 - [Instagram](https://www.instagram.com/drspotfire/)
 
-Also, if you are new to Spotifre and want to learn the basics from an organized curriculum, you can visit the [Spotfire Enablement Hub (free)](https://community.tibco.com/wiki/spotfire-enablement-hub) or [TIBCO Academy (paid)](https://academy.tibco.com/tibco/learn/home) (paid).
+Also, if you are new to Spotifre and want to learn the basics from an organized curriculum, you can visit the [Spotfire Enablement Hub (free)](https://community.tibco.com/wiki/spotfire-enablement-hub) or [TIBCO Academy (paid)](https://academy.tibco.com/tibco/learn/home).
 
 See you out there Datathoner! :v:
