@@ -10,9 +10,9 @@ Hi! My name is Neil Kanungo and I'm a Data Scientist with TIBCO Software. You mi
 
 The bootcamp in this repo covers three (3) exercises to help intermediate users:
 
-- [Exercise 1 : Geospatial Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%201%20-%20Geospatial%20Analysis)
-- [Exercise 2 : Regression Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%202%20-%20Regression%20Analysis)
-- [Exercise 3 : Styling Tips](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%203%20-%20Styling%20Tips)
+- [Exercise 1 : Geospatial Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201%20-%20Geospatial%20Analysis/Exercise%201%20-%20Instructions.md)
+- [Exercise 2 : Regression Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%202%20-%20Regression%20Analysis/Exercise%202%20-%20Instructions.md)
+- [Exercise 3 : Styling Tips](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%203%20-%20Styling%20Tips/Exercise%203%20-%20Instructions.md)
 
 You can find the files for each exercise in separate folders of this directory, or simply linked here.
 
