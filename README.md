@@ -34,7 +34,7 @@ Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spot
 
 TIBCO Spotifre has many tools to help you with Machine Learning and Statistical Analysis right out of the box :package:! In this quick example, you'll walk through some basic Well Production Data for the Bakken Formation, and determine the top predictors for best production without writing any code.
 
-:arrow_right: [Go to Exercise](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%203%20-%20Styling%20Tips)
+:arrow_right: [Go to Exercise](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%202%20-%20Regression%20Analysis)
 
 
 
@@ -46,8 +46,7 @@ Styling visualizations and dashboards is not just for aesthetics, it's for _comm
 
 The topic itself is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session. (If you are participating in the Data Visualization Competition, this topic is very important!!)
 
-:arrow_right: [Go to Exercise](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%202%20-%20Regression%20Analysis)
-
+:arrow_right: [Go to Exercise](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%203%20-%20Styling%20Tips)
 
 
 ### Connect with others!
