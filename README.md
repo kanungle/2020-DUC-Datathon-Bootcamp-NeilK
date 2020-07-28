@@ -18,11 +18,7 @@ You can find the files for each exercise in the "exercises" folder directory.
 
 ### Exercise 1: Geospatial Analysis
 
-![Image of Points](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex1%20-%20Isopach%20Points.png)
-
-![Image of Voronoi](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Voronoi.png)
-
-![Image of Contours](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex1%20-%20Contours.png)
+![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Overview.png)
 
 :arrow_right: Example DXP: [Download](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201/Exercise%201%20-%20Geospatial%20Analysis.dxp)
 
@@ -63,6 +59,7 @@ Data Functions:
 Also see: 
 - [TIBCO Exchange](https://community.tibco.com/exchange/product/541)
 - [Spotfire Geoanalytics Home Page](https://community.tibco.com/wiki/tibco-spotfire-location-analytics-mapping-geoanalytics-and-spatial-statistics)
+- [Custom Map Backgrounds](https://community.tibco.com/wiki/geoanalytics-resources)
 
 Shapefiles:
 - Download [Alberta Natural Regions and Subregions Shapefile](https://www.albertaparks.ca/media/429607/natural_regions_subregions_of_alberta.zip) (source: Alberta Parks)
@@ -86,6 +83,8 @@ Shapefiles:
 Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of visualization. If you are participating in the Data Visualization Competition, this topic is very important!!
 
 The topic itself is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session.
+
+![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex2%20-%20Results.png)
 
 :arrow_right: Example DXP: [Download]()
 
