@@ -19,7 +19,7 @@ You can find the files for each exercise in the "exercises" folder directory.
 ### Exercise 1: Geospatial Analysis
 
 TERR Expression Code for Spatial Interpolation:
-'''
+```
 x <- input1
 y <- input2
 z <- input3
@@ -34,7 +34,7 @@ xyzdata.lo <- try(loess(z~x*y, data=xyzdata, span=smooth.scale, na.action=na.exc
 xyzdata.lo.pred <- predict( xyzdata.lo, newdata=data.frame(x=x, y=y))
 
 output <- xyzdata.lo.pred
-'''
+```
 
 Data Functions:
 - [Contour Plot](https://community.tibco.com/modules/map-contour-plot-data-function-tibco-spotfire)
