@@ -18,6 +18,24 @@ You can find the files for each exercise in the "exercises" folder directory.
 
 ### Exercise 1: Geospatial Analysis
 
+TERR Expression Code for Spatial Interpolation:
+'''
+x <- input1
+y <- input2
+z <- input3
+smooth.scale <- input4[1]
+
+xyzdata = data.frame( x=x, y=y, z=z )
+bad = is.na(x) | is.na(x) | is.na(z)
+xyzdata = xyzdata[!bad,]
+
+xyzdata.lo <- try(loess(z~x*y, data=xyzdata, span=smooth.scale, na.action=na.exclude))
+
+xyzdata.lo.pred <- predict( xyzdata.lo, newdata=data.frame(x=x, y=y))
+
+output <- xyzdata.lo.pred
+'''
+
 Data Functions:
 - [Contour Plot](https://community.tibco.com/modules/map-contour-plot-data-function-tibco-spotfire)
 - [Voronoi Polygons](https://community.tibco.com/modules/voronoi-polygons-tibco-spotfire)
@@ -34,6 +52,8 @@ Shapefiles:
 
 ### Exercise 2: Machine Learning
 
+Example DXP: [Download]()
+
 - This DXP file may be used to demonstrate how to create a regression model in Spotfire without writing any code.
   - To demonstrate this, go to Tools > Regression Modeling, and select:
     - Response column: Production at 12 Months (BOE)
@@ -43,19 +63,33 @@ Shapefiles:
 
 ### Exercise 3: Styling Tips
 
-Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate insights
+Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of visualization.
+
+This topic is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session.
+
+Example DXP: [Download]()
+
+Video Tips:
+ - [Styling and Configuration Overview (11:22)](https://youtu.be/1pfGb-cHrgc)
+ - [Using Color Effectively (8:27)](https://youtu.be/6pvYRdPRQv8)
+ - [Build a User Experience (12:04)](https://youtu.be/nQ6w7iC-gt4)
+
+Cheatsheets:
+ - [Choosing the Right Chart](http://community.tibco.com/sites/default/files/choosing_the_right_chart.pdf)
+ - [Color Scheme Guidance](https://community.tibco.com/sites/default/files/color_scheme_guidance_1.pdf)
+ - [More cheatsheets](https://community.tibco.com/wiki/spotfire-cheatsheets)
 
 ### Connect with others!
 
 Data Analytics is a constantly-changing, fast-moving journey. To continue learning with Spotfire, consider joining one of our user groups to network with your peers and stay up-to-date on the latest!
 
-User Groups:
+__User Groups:__
 - [Facebook](https://www.facebook.com/groups/651751391967838)
 - [Reddit](https://www.reddit.com/r/spotfire/)
 - [Twitter](https://twitter.com/DrSpotfire)
 - [LinkedIn](https://www.linkedin.com/groups/12253057/)
 - [Instagram](https://www.instagram.com/drspotfire/)
 
-Also, if you are new to Spotifre and want to learn the basics from a curriculum, you can visit the [Spotfire Enablement Hub](https://community.tibco.com/wiki/spotfire-enablement-hub) (free) or [TIBCO Academy](https://academy.tibco.com/tibco/learn/home) (paid).
+Also, if you are new to Spotifre and want to learn the basics from an organized curriculum, you can visit the [Spotfire Enablement Hub (free)](https://community.tibco.com/wiki/spotfire-enablement-hub) or [TIBCO Academy (paid)](https://academy.tibco.com/tibco/learn/home) (paid).
 
 See you out there Datathoner! :v:
