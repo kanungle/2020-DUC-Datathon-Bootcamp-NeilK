@@ -1,6 +1,6 @@
 # Exercise 1 - Geospatial Analysis
 
-Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spotfire! In this thorough exercise, you will learn how to spatially interpolate values, generalize values with contours, cluster with unsupervised machine learning, merge points and geometries, and determine important variables. Download the Example DXP above to get started. This DXP uses isopach (thickness measurment) data, and goes through each of the aforementioned analyses with powerful Spotfire Data Functions written in R (TERR).
+Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spotfire! In this thorough exercise, you will learn how to spatially interpolate values, generalize values with contours, cluster with unsupervised machine learning, merge points and geometries, and determine important variables. Download the Example DXP below to get started. This DXP uses isopach (thickness measurment) data, and goes through each of the aforementioned analyses with powerful Spotfire Data Functions written in R (TERR).
 
 ![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Overview.png)
 
