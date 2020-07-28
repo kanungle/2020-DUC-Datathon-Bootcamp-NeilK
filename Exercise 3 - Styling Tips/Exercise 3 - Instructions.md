@@ -8,6 +8,7 @@ The topic itself is quite broad by nature, but I have compiled some Spotfire res
 
 __:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%203%20-%20Styling%20Tips/Exercise%203%20-%20Styling%20Guidance.dxp)__
 
+#### Styling Resources
 Video Tips:
  - [Styling and Configuration Overview (11:22)](https://youtu.be/1pfGb-cHrgc)
  - [Using Color Effectively (8:27)](https://youtu.be/6pvYRdPRQv8)
