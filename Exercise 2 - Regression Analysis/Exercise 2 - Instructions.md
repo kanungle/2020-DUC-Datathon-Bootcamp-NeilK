@@ -18,3 +18,6 @@ __:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Data
     - What are the most important variables? 
 	- How do the residuals compare to fitted values? 
 	- Can you use Cook's Distance to identify outliers?
+
+
+__:arrow_left: [Return to Main](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/README.md)__
