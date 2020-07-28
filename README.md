@@ -1,6 +1,8 @@
 # DUC Datathon Bootcamp with TIBCO Spotfire
 
-Welcome to the DUC Datathon 2020 Intermediate Level Bootcamp for TIBCO Spotfire :bar_chart:! Follow along with this guide to learn about geoanalytics, data functions, property controls.
+Welcome to the DUC Datathon 2020 Intermediate Level Bootcamp for TIBCO Spotfire :bar_chart:! Follow along with this guide to learn about geoanalytics, data functions, machine learning, visualization best practices, and more.
+
+
 
 
 ### Introduction
@@ -9,18 +11,24 @@ My name is Neil Kanungo, a Data Scientist with TIBCO Software. You might know me
 
 The bootcamp in this repo covers three (3) exercises to help intermediate users:
 
-- Exercise 1 : Geospatial Analysis
-- Exercise 2 : Machine Learning
-- Exercise 3 : Styling Tips
+- [Exercise 1 : Geospatial Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%201%20-%20Geospatial%20Analysis)
+- [Exercise 2 : Regression Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%202%20-%20Regression%20Analysis)
+- [Exercise 3 : Styling Tips](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%203%20-%20Styling%20Tips)
 
-You can find the files for each exercise in the "exercises" folder directory.
+You can find the files for each exercise in separate folders of this directory, or simply linked above.
+
+
 
 
 ### Exercise 1: Geospatial Analysis
 
 ![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Overview.png)
 
-:arrow_right: Example DXP: [Download](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201/Exercise%201%20-%20Geospatial%20Analysis.dxp)
+__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201/Exercise%201%20-%20Geospatial%20Analysis.dxp)__
+
+Using sophisticated Machine Learning and Geospatial Analysis can be easy in TIBCO Spotfire! In this thorough exercise, you will learn how to spatially interpolate values, generalize values with contours, cluster with unsupervised machine learning, merge points and geometries, and determine important variables. This example uses Isopach data to start, and goes through each of the aforementioned analyses with powerful Spotfire Data Functions written in R (TERR).
+
+#### Step 1: Spatial Interpolation
 
 TERR Expression Code for Spatial Interpolation:
 ```
@@ -66,27 +74,39 @@ Shapefiles:
 - Download [Alberta Play Outline Shapefile](https://www.aer.ca/documents/catalog/PlayWorkbookListArea.zip) (source: Alberta Energy Regulator)
 
 
+
+
 ### Exercise 2: Regression Analysis
 
-:arrow_right: Example DXP: [Download]()
+![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex2%20-%20Results.png)
 
-- This DXP file may be used to create a regression model in Spotfire without writing any code.
+__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%202%20-%20Regression%20Analysis/Exercise%202%20-%20Regression%20Analysis.dxp)__
+
+TIBCO Spotifre has many built-in tools to help you with Machine Learning and Statistical Analysis right out of the box :package:! In this quick example, you'll walk through some basic Well Production Data for the Bakken Formation, and determine the top predictors for best production without writing any code.
+
+Step-by-step:
   1. Download and open the DXP provided above
   2. Go to Tools > Regression Modeling, and select:
     - Response column: Production at 12 Months (BOE)
 	- Predictor columns: all the other columns except Latitude and Longitude
   3. Then click OK and review the output.
-  4. Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE)
+  4. Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE). 
+    - What are the most important variables? 
+	- How do the residuals compare to fitted values? 
+	- Can you use Cook's Distance to identify outliers?
+
+
+
 
 ### Exercise 3: Styling Tips
 
-Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of visualization. If you are participating in the Data Visualization Competition, this topic is very important!!
+![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex3%20-%20Color%20Guidance.png)
 
-The topic itself is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session.
+__:arrow_right: [Download Example DXP]()__
 
-![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex2%20-%20Results.png)
+Styling visualizations and dashboards is not just for aesthetics, it's for _communication_. Clearly assembled visualizations help communicate data insights to your audience, which is the core purpose of data visualization.
 
-:arrow_right: Example DXP: [Download]()
+The topic itself is quite broad by nature, but I have compiled some Spotfire resources here for you to reference and an exercise to follow along with. We will go over these during the live Bootcamp session. (If you are participating in the Data Visualization Competition, this topic is very important!!)
 
 Video Tips:
  - [Styling and Configuration Overview (11:22)](https://youtu.be/1pfGb-cHrgc)
@@ -103,6 +123,10 @@ Cheatsheets:
   - [DataViz Color Palette Generator](https://learnui.design/tools/data-color-picker.html)
   - [ESRI Color Ramps](https://developers.arcgis.com/javascript/latest/guide/esri-color-ramps/)
   - [ColorBrewer2](https://colorbrewer2.org/)
+
+
+
+
 
 ### Connect with others!
 
