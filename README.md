@@ -20,6 +20,16 @@ You can find the files for each exercise in the "exercises" folder directory.
 
 TERR Expression Code for Spatial Interpolation:
 ```
+# Interpolate missing values at points on a surface using local polynomial regression.
+
+# The first argument is a column of real number values indicating x coordinates or longitudes. 
+# The second argument is a column of real number values indicating y coordinates or latitudes. 
+# The third argument is a column of real number or integer valued data containing missing values. 
+# The fourth argument is a scalar real number value controlling the degree of smoothness.
+
+# Example:
+# InterpolateSmoothSurface([x], [y], [z], 0.5)
+
 x <- input1
 y <- input2
 z <- input3
@@ -34,6 +44,7 @@ xyzdata.lo <- try(loess(z~x*y, data=xyzdata, span=smooth.scale, na.action=na.exc
 xyzdata.lo.pred <- predict( xyzdata.lo, newdata=data.frame(x=x, y=y))
 
 output <- xyzdata.lo.pred
+
 ```
 
 Data Functions:
