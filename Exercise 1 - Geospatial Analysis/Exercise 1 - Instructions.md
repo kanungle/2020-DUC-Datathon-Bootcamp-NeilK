@@ -148,4 +148,4 @@ Now that the data is combined, we can open our Data Panel and select the Product
 
 This was a very simple example with some sample wells, but this process can be applied to real-world wells with more rich data to do a similar analysis, and can generally be applied whenever you want to analyze individual point data and it's relationship to other point data.
 
-__:arrow_left: [Return to Main](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/README.md)
+__:arrow_left: [Return to Main](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/README.md)__
