@@ -27,3 +27,5 @@ Cheatsheets:
   
   
 If you are new to Spotifre and want to learn the basics from an organized curriculum, you can visit the [Spotfire Enablement Hub (free)](https://community.tibco.com/wiki/spotfire-enablement-hub) or [TIBCO Academy (paid)](https://academy.tibco.com/tibco/learn/home).
+
+__:arrow_left: [Return to Main](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/README.md)__
