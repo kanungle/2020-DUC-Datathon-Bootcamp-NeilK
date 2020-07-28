@@ -87,10 +87,12 @@ TIBCO Spotifre has many built-in tools to help you with Machine Learning and Sta
 Step-by-step:
   1. Download and open the DXP provided above
   2. Go to Tools > Regression Modeling, and select:
+  
     - Response column: Production at 12 Months (BOE)
 	- Predictor columns: all the other columns except Latitude and Longitude
   3. Then click OK and review the output.
-  4. Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE). 
+  4. Enlarge the variable importance plot to show which columns are predictive of Production at 12 Months (BOE).
+
     - What are the most important variables? 
 	- How do the residuals compare to fitted values? 
 	- Can you use Cook's Distance to identify outliers?
