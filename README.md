@@ -14,7 +14,7 @@ The bootcamp in this repo covers three (3) exercises to help intermediate users:
 - [Exercise 2 : Regression Analysis](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%202%20-%20Regression%20Analysis)
 - [Exercise 3 : Styling Tips](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%203%20-%20Styling%20Tips)
 
-You can find the files for each exercise in separate folders of this directory, or simply linked above.
+You can find the files for each exercise in separate folders of this directory, or simply linked here.
 
 
 
@@ -22,7 +22,7 @@ You can find the files for each exercise in separate folders of this directory, 
 
 ![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Overview.png)
 
-Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spotfire! In this thorough exercise, you will learn how to spatially interpolate values, generalize values with contours, cluster with unsupervised machine learning, merge points and geometries, and determine important variables. Download the Example DXP above to get started. This DXP uses isopach (thickness measurment) data, and goes through each of the aforementioned analyses with powerful Spotfire Data Functions written in R (TERR).
+Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spotfire! In this thorough exercise, you will learn how to spatially interpolate values, generalize values with contours, cluster with unsupervised machine learning, merge points and geometries, and determine important variables.
 
 :arrow_right: [Go to Exercise](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/tree/master/Exercise%201%20-%20Geospatial%20Analysis)
 
