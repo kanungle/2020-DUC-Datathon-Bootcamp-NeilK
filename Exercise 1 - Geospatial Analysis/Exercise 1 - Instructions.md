@@ -4,7 +4,7 @@ Using sophisticated Machine Learning and Geospatial Analysis can be easy in Spot
 
 ![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex%201%20-%20Overview.png)
 
-__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%201/Exercise%201%20-%20Geospatial%20Analysis.dxp)__
+__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/raw/master/Exercise%201%20-%20Geospatial%20Analysis/Exercise%201%20-%20Geospatial%20Analysis.dxp)__
 
 
 #### Step 1: Spatial Interpolation Function
