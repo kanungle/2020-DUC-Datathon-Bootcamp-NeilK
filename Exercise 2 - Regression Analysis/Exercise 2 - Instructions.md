@@ -4,7 +4,7 @@ TIBCO Spotifre has many tools to help you with Machine Learning and Statistical 
 
 ![Overview](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/images/Ex2%20-%20Results.png)
 
-__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/blob/master/Exercise%202%20-%20Regression%20Analysis/Exercise%202%20-%20Regression%20Analysis.dxp)__
+__:arrow_right: [Download Example DXP](https://github.com/kanungle/2020-DUC-Datathon-Bootcamp-NeilK/raw/master/Exercise%202%20-%20Regression%20Analysis/Exercise%202%20-%20Regression%20Analysis.dxp)__
 
 #### Step-by-step
   1. Download and open the DXP provided above
